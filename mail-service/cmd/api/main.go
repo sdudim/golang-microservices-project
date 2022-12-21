@@ -9,7 +9,7 @@ import (
 )
 
 type Config struct {
-	Mailer Mail //Mail struct defined in mailer.go file
+	Mailer Mail //Mail struct defined in mailer.go file (include his functions)
 }
 
 const webPort = "80"
