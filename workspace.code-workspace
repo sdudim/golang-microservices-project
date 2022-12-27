@@ -21,6 +21,9 @@
 		{
 			"name": "go-microservices",
 			"path": "."
+		},
+		{
+			"path": "listener-service"
 		}
 	],
 	"settings": {}
