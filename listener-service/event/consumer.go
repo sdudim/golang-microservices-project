@@ -15,7 +15,7 @@ type Consumer struct {
 	queueName string
 }
 
-func newConsumer(conn *ampq.Connection) (Consumer, error) {
+func NewConsumer(conn *ampq.Connection) (Consumer, error) {
 
 	consumer := Consumer{
 		conn: conn,
