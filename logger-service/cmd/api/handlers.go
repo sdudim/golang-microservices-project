@@ -30,7 +30,7 @@ func (app *Config) WriteLog(w http.ResponseWriter, r *http.Request) {
 
 	resp := jsonResponse{ // this struct object defined in the helpers.go file
 		Error:   false,
-		Message: "logged",
+		Message: "logged(Log service)",
 	}
 
 	app.writeJSON(w, http.StatusAccepted, resp)
