@@ -96,7 +96,7 @@ func (app *Config) logItem(w http.ResponseWriter, entry LogPayload) {
 
 	var payload jsonResponse
 	payload.Error = false
-	payload.Message = "logged2"
+	payload.Message = "logged!!!"
 
 	app.writeJSON(w, http.StatusAccepted, payload)
 
